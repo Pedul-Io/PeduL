@@ -16,43 +16,54 @@ html {
   background-size: cover;
 }
 
-.jumbotron h1 {
-  font-size: 100px;
-  text-transform: uppercase;
-  font-weight: 1500;
-  padding-top: 30px;
-  margin-left: -40px;
-  color: #FFFFFF;
-  font-family: Impact, 'Franklin Gothic Bold', 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+.jumbotron .image {
+  background: url(finallogo.png) no-repeat;
+  background-size: 300px;
+  padding-top: 50px;
+  margin-top: 70px;
+  padding-bottom: 130px;
 }
 
-.jumbotron strong {
-  color: #00D161;
-  text-transform: lowercase;
-}
-
-.jumbotron .one {
-  color: #DBDBDB;
-}
-
-.jumbotron p {
-  margin-top: 20px; 
-  margin-left: -10px;
+.jumbotron .tagline {
   font-size: 2em; 
   font-weight: 130;
   color: #A6B3AD;
+  margin-left: 30px;
 }
 
 .jumbotron h4 {
   font-size: 21px;
   color: #FFFFFF;
-  padding-top: 70px;
+  padding-top: 100px;
+  padding-left: 210px;
+}
+
+#mc_embed_signup {
+  padding-left: 180px;
+}
+
+.clear {
+  margin-left: -20px;
+}
+
+.band {
+  height: 15px;
+  background-color: #E3CD3B;
+}
+
+.circles .description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: #FFFFFF;
 }
 
 
 .circles {
   height: 600px;
-  background-color: #009E66;
+  background-color: #042037;
+  
 }
 
 .user {
@@ -66,11 +77,11 @@ html {
 }
 
 .chisa {
-    background-image: url('http://www.playbillvault.com/images/photo/D/e/Denzel-Washington.1324403806.jpg');
+    background-image: url('chisa_egbelu.jpg');
 }
 
 .pema {
-    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/dvd/blog-headshot.jpg');
+    background-image: url('pema_lama.jpeg');
 }
 
 .prompt {
@@ -79,18 +90,28 @@ html {
 }
 
 .murtala {
-    background-image: url('http://40.media.tumblr.com/4d55dc470bbdfa8c321a5aee2eb853ee/tumblr_nglfx5E1OI1tkkiwro5_1280.jpg');
+    background-image: url('Murtala_Aliyu.jpg');
 }
 
 .daniel {
-    background-image: url('https://s-media-cache-ak0.pinimg.com/236x/62/67/36/626736ba0e30b3586bb116948b8f58c0.jpg');
+    background-image: url('daniel_chen.jpg');
 }
 
 
 
 .learn-more {
-  background-color: #FEFCFF;
-  border-bottom: 3px solid #dbdbdb;
+  background-color: #009E66;
+  border-bottom: 3px solid #;
+  text-align: center;
+}
+
+.learn-more .image {
+  background: url(finallogo.png) no-repeat;
+  background-size: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+   margin: 0 auto;
+    width: 7%;
 }
 
 .learn-more h3 {
