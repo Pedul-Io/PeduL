@@ -1,132 +1,150 @@
-html {
-  background: url(9b635d7ccb865688440baf13cdfda3c8.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+/* GLOBAL */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #160F29;
 }
 
+
+/* MASTHEAD */
 .jumbotron {
-  background: linear-gradient(
-      rgba(29, 35, 42, 0.85), 
-      rgba(29, 35, 42, 0.85)
-    ),
-  url(PedulVid30sec.gif) no-repeat center center fixed;
-  height: 550px; 
-  background-size: cover;
+  margin: 0;
+  background-color: #160F29;
+  color: #6C6384;
 }
 
-.jumbotron .image {
-  background: url(finallogo.png) no-repeat;
-  background-size: 300px;
-  padding-top: 50px;
-  margin-top: 70px;
-  padding-bottom: 130px;
+.jumbotron .row {
+  margin: 50px;
 }
 
-.jumbotron .tagline {
-  font-size: 2em; 
-  font-weight: 130;
-  color: #A6B3AD;
-  margin-left: 30px;
+h1 {
+  text-align: left;
 }
 
-.jumbotron h4 {
+h2 {
+  color: #6C6384;
+}
+
+.edu {
+  color: #988761;
+}
+
+h4 {
+  font-weight: 100;
   font-size: 21px;
-  color: #FFFFFF;
-  padding-top: 100px;
-  padding-left: 210px;
+  padding: 100px 0 15px 200px;
+  margin: -75px 0 0 15px;
 }
 
-#mc_embed_signup {
+.mc_embed_signup {
   padding-left: 180px;
+  margin-top: -15px;
 }
 
-.clear {
-  margin-left: -20px;
+.mc-field-group {
+  margin: 15px;
 }
 
-.band {
-  height: 15px;
-  background-color: #E3CD3B;
+input {
+  padding: 10px;
 }
 
-.circles .description {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-  font-size: 25px;
-  color: #FFFFFF;
+.btn {
+  margin-left: 15px;
 }
 
+/* USER PROFILES */
 
-.circles {
+.biographies {
   height: 600px;
-  background-color: #042037;
-  
+  margin: 0;
+  padding: 0;
 }
 
-.user {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+.biographies h2 {
+  text-align: center;
+  color: #A3DAE0;
+  margin: 0;
+  padding: 25px 0 25px 0;
 }
 
-.chisa {
-    background-image: url('chisa_egbelu.jpg');
+.row .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
 }
 
-.pema {
-    background-image: url('pema_lama.jpeg');
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
 }
 
-.prompt {
-    width: 100px;
-    height: 100px;
+.card {
+  position: relative;
+  float: left;
+  padding-bottom: 30%;
+  width: 25%;
+  text-align: center;
 }
 
-.murtala {
-    background-image: url('Murtala_Aliyu.jpg');
+.card_front,
+.card_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: trasnform 0.3;
 }
 
-.daniel {
-    background-image: url('daniel_chen.jpg');
+.card_front {
+  background-color: rgba(80, 71, 105, 0.5);
 }
 
+.card_back {
+  background-color: rgba(152, 135, 97, 0.5);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
 
+.card.effect_hover:hover .card_front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect_hover:hover .card_back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+/*.chisa, .pema, .murtala, .daniel {
+  background-color: #444651;
+  opacity: 0.5;
+  height: 500px;
+  border-style: solid;
+  border-color: #62708C;
+}*/
+
+.biographies p {
+  padding: 25px 20px 15px 20px;
+  color: rgba(189, 191, 138, 1);
+}
 
 .learn-more {
-  background-color: #009E66;
-  border-bottom: 3px solid #;
+  padding: 20px;
   text-align: center;
-}
-
-.learn-more .image {
-  background: url(finallogo.png) no-repeat;
-  background-size: 100px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-   margin: 0 auto;
-    width: 7%;
-}
-
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 13px;
-  font-weight: bold;
 }
 
 .learn-more p {
-  font-size: 13px;
+  font-size: 15px;
+  color: #1B323F;
 }
 
 .learn-more a {
-  color: #00b0ff;
-  font-size: 13px;
+  color: #1B323F;
+  font-size: 15px;
 }
 
 
