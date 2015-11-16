@@ -62,7 +62,7 @@ input {
 
 .biographies h2 {
   text-align: center;
-  color: #A3DAE0;
+  color: #988761;
   margin: 0;
   padding: 25px 0 25px 0;
 }
@@ -137,15 +137,9 @@ input {
   text-align: center;
 }
 
-.learn-more p {
+.learn-more p, a {
   font-size: 15px;
-  color: #1B323F;
+  color: #988761;
 }
-
-.learn-more a {
-  color: #1B323F;
-  font-size: 15px;
-}
-
 
 /* Copyright PeduL 2015, all rights reserved.  */
