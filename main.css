@@ -137,14 +137,6 @@ img {
           transform: rotateY(0);
 }
 
-/*.chisa, .pema, .murtala, .daniel {
-  background-color: #444651;
-  opacity: 0.5;
-  height: 500px;
-  border-style: solid;
-  border-color: #62708C;
-}*/
-
 .biographies p {
   padding: 25px 20px 15px 20px;
   color: rgba(189, 191, 138, 1);
@@ -152,7 +144,7 @@ img {
 }
 
 .learn-more {
-  padding: 20px;
+  padding: 20px 0 0 0;
   text-align: center;
 }
 
