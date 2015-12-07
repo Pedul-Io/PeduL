@@ -8,10 +8,10 @@ html {
 
 .jumbotron {
   background: linear-gradient(
-      rgba(29, 35, 42, 0.85), 
-      rgba(29, 35, 42, 0.85)
+      rgba(29, 35, 42, 0.4), 
+      rgba(29, 35, 42, 0.4)
     ),
-  url(PedulVid30sec.gif) no-repeat center center fixed;
+  url(http://www.pedul.io/PedulVid30sec.gif) no-repeat center center fixed;
   height: 550px; 
   background-size: cover;
 }
@@ -25,13 +25,14 @@ html {
 }
 
 .jumbotron .tagline {
+  font-family: 'Raleway', sans-serif;
   font-size: 2em; 
   font-weight: 130;
-  color: #A6B3AD;
-  margin-left: 30px;
+  color: #FFFFFF;
 }
 
 .jumbotron h4 {
+  font-family: 'Raleway', sans-serif;
   font-size: 21px;
   color: #FFFFFF;
   padding-top: 100px;
@@ -47,14 +48,15 @@ html {
 }
 
 .band {
-  height: 15px;
-  background-color: #E3CD3B;
+  height: 20px;
+  background-color: #D4B46A;
 }
 
 .circles .description {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
   font-size: 25px;
   color: #FFFFFF;
 }
@@ -76,17 +78,16 @@ html {
     background-size: cover;
 }
 
-.chisa {
-    background-image: url('chisa_egbelu.jpg');
+.kayla {
+    background-image: url('kayla_jackson.jpg');
 }
 
 .pema {
     background-image: url('pema_lama.jpg');
 }
 
-.prompt {
-    width: 100px;
-    height: 100px;
+.chisa {
+    background-image: url('chisa_egbelu.jpg');
 }
 
 .murtala {
@@ -115,12 +116,12 @@ html {
 }
 
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
   font-size: 13px;
   font-weight: bold;
 }
 
 .learn-more p {
+  font-family: 'Raleway', sans-serif;
   font-size: 13px;
 }
 
