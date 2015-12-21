@@ -8,8 +8,8 @@ html {
 
 .jumbotron {
   background: linear-gradient(
-      rgba(29, 35, 42, 0.4), 
-      rgba(29, 35, 42, 0.4)
+      rgba(29, 35, 42, 0.1), 
+      rgba(29, 35, 42, 0.1)
     ),
   url(http://www.pedul.io/PedulVid30sec.gif) no-repeat center center fixed;
   height: 550px; 
@@ -57,13 +57,13 @@ html {
   padding-bottom: 30px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   color: #FFFFFF;
 }
 
 
 .circles {
-  height: 600px;
+  height: 800px;
   background-color: #042037;
   
 }
@@ -98,7 +98,16 @@ html {
     background-image: url('daniel_chen.jpg');
 }
 
-
+.circles .blurb {
+    margin-top: -480px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #D5D5D5;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-transform: uppercase;
+}
 
 .learn-more {
   background-color: #009E66;
