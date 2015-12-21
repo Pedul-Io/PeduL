@@ -1,0 +1,156 @@
+/* GLOBAL */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #160F29;
+}
+
+
+/* MASTHEAD */
+.jumbotron {
+  background: linear-gradient(
+      rgba(29, 35, 42, 0.3), 
+      rgba(29, 35, 42, 0.3)
+    ),
+  url(http://www.pedul.io/PedulVid30sec.gif) no-repeat center center fixed;
+  height: 550px; 
+  background-size: cover;
+}
+
+.jumbotron .image {
+  background: url(finallogo.png) no-repeat;
+  background-size: 300px;
+  padding-top: 50px;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding-bottom: 130px;
+}
+
+.jumbotron .tagline {
+  font-size: 2em; 
+  font-weight: 130;
+  color: #FFFFFF;
+  margin-left: 40px;
+}
+
+.jumbotron .row {
+  margin: 50px;
+}
+
+.edu {
+  color: #988761;
+}
+
+h4 {
+  font-weight: 100;
+  font-size: 21px;
+  padding: 100px 0 15px 200px;
+  margin: -75px 0 0 15px;
+  color: #ffffff;
+}
+
+.mc_embed_signup {
+  padding-left: 180px;
+  margin-top: -15px;
+}
+
+.mc-field-group {
+  margin: 15px;
+}
+
+input {
+  padding: 10px;
+}
+
+.btn {
+  margin-left: 15px;
+}
+
+/* USER PROFILES */
+
+.biographies {
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.biographies h2 {
+  text-align: center;
+  color: #988761;
+  margin: 0;
+  padding: 25px 0 25px 0;
+}
+
+.row .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.card {
+  position: relative;
+  float: left;
+  padding-bottom: 30%;
+  width: 25%;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.card_front,
+.card_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: trasnform 0.3;
+}
+
+.card_front {
+  background-color: rgba(80, 71, 105, 0.5);
+}
+
+.card_back {
+  background-color: rgba(152, 135, 97, 0.5);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect_hover:hover .card_front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect_hover:hover .card_back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+.biographies p {
+  padding: 25px 20px 15px 20px;
+  color: rgba(189, 191, 138, 1);
+  margin-top: 100px;
+}
+
+.learn-more {
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.learn-more p, a {
+  font-size: 15px;
+  color: #988761;
+}
+
+/* Copyright PeduL 2015, all rights reserved.  */
