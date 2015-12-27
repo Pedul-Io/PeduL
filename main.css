@@ -11,7 +11,7 @@ html {
       rgba(29, 35, 42, 0.1), 
       rgba(29, 35, 42, 0.1)
     ),
-  url(http://www.pedul.io/Whiteboard.mp4) no-repeat center center fixed;
+  url(http://www.pedul.io/PedulVid.gif) no-repeat center center fixed;
   height: 550px; 
   background-size: cover;
 }
