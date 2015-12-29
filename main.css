@@ -25,10 +25,19 @@ video#bgvid {
 }
 */
 
-#bgvid {
-  float:left;
+#video_box{
+    float:left;
 }
-
+/*
+#video_overlays {
+position:absolute;
+float:left;
+    width:640px;
+    min-height:370px;
+    background-color:#000;
+    z-index:300000;
+}
+*/
 .jumbotron {
   background: linear-gradient(
       rgba(29, 35, 42, 0.1), 
