@@ -10,6 +10,7 @@ html {
   background: linear-gradient(
       rgba(29, 35, 42, 0.1), 
       rgba(29, 35, 42, 0.1)
+    );
   height: 550px; 
   background-size: cover;
   position: relative;
