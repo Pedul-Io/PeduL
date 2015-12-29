@@ -22,8 +22,7 @@ html {
   background-size: 300px;
   padding-top: 50px;
   margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 80px;
   padding-bottom: 130px;
 }
 
@@ -51,6 +50,7 @@ html {
 
 .jumbotron .tagline {
   font-family: 'Raleway', sans-serif;
+  margin-left: 80px;
   font-size: 2em; 
   font-weight: 130;
   color: #FFFFFF;
