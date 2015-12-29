@@ -5,6 +5,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
 /*
 video#bgvid { 
     position: fixed;
@@ -19,16 +20,29 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(http://www.pedul.io/group-pic.jpeg) no-repeat;
+    background: url(polina.jpg) no-repeat;
     background-size: cover; 
 }
 */
+
+#bgvid {
+  float:left;
+}
+
 .jumbotron {
   background: linear-gradient(
       rgba(29, 35, 42, 0.1), 
       rgba(29, 35, 42, 0.1)
     ),
-  url(http://www.pedul.io/PedulVid30sec.gif) no-repeat center center fixed;
+  height: 550px; 
+  background-size: cover;
+}
+
+.jumbotron .bgvid {
+    background: linear-gradient(
+      rgba(29, 35, 42, 0.1), 
+      rgba(29, 35, 42, 0.1)
+    ),
   height: 550px; 
   background-size: cover;
 }
