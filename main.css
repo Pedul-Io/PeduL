@@ -60,7 +60,7 @@ html {
         rgba(29, 35, 42, 0.1), 
         rgba(29, 35, 42, 0.1)
         ),
-      url(http://www.pedul.io/PedulVid30sec.gif) no-repeat;
+      url(PedulVid30sec.gif) no-repeat;
       height: 100%;
       background-size: cover;
       position: relative;
