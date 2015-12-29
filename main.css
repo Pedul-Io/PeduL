@@ -10,22 +10,46 @@ html {
   background: linear-gradient(
       rgba(29, 35, 42, 0.1), 
       rgba(29, 35, 42, 0.1)
-    ),
-  url(http://www.pedul.io/PedulVid.gif) no-repeat center center fixed;
   height: 550px; 
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 
-.jumbotron .image {
+.jumbotron .image{
   background: url(finallogo.png) no-repeat;
   background-size: 300px;
   padding-top: 50px;
   margin-top: 70px;
+  margin-left: 80px;
   padding-bottom: 130px;
+}
+
+.jumbotron:row {
+  content: '';
+  width: 100%;
+  height: 100%;
+  padding-right: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.jumbotron video {
+  height: 100%;
+  width: 177.77777778vh; /* 100 * 16 / 9 */
+  min-width: 100%;
+  min-height: 56.25vw; /* 100 * 9 / 16 */
+  position: absolute;
+  left: 50%; /* % of surrounding element */
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 1;
 }
 
 .jumbotron .tagline {
   font-family: 'Raleway', sans-serif;
+  margin-left: 80px;
   font-size: 2em; 
   font-weight: 130;
   color: #FFFFFF;
@@ -52,7 +76,7 @@ html {
   background-color: #D4B46A;
 }
 
-.circles .description {
+.biographies .description {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -61,6 +85,10 @@ html {
   color: #FFFFFF;
 }
 
+.biographies {
+  height: 800px;
+  background-color: #042037;  
+}
 
 .circles {
   height: 800px;
@@ -98,7 +126,7 @@ html {
     background-image: url('daniel_chen.jpg');
 }
 
-.circles .blurb {
+.biographies .blurb {
     margin-top: -480px;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
@@ -120,8 +148,8 @@ html {
   background-size: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
-   margin: 0 auto;
-    width: 7%;
+  margin: 0 auto;
+  width: 7%;
 }
 
 .learn-more h3 {
