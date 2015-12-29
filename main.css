@@ -48,6 +48,26 @@ html {
   opacity: 1;
 }
 
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(group-pic.jpeg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+    .jumbotron{
+      background: linear-gradient(
+        rgba(29, 35, 42, 0.1), 
+        rgba(29, 35, 42, 0.1)
+        ),
+      url(PedulVid30sec.gif) no-repeat;
+      height: 100%;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+    }
+}
+
 .jumbotron .tagline {
   font-family: 'Raleway', sans-serif;
   margin-left: 80px;
