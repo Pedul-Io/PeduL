@@ -5,7 +5,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-
+/*
 video#bgvid { 
     position: fixed;
     top: 50%;
@@ -22,7 +22,7 @@ video#bgvid {
     background: url(http://www.pedul.io/group-pic.jpeg) no-repeat;
     background-size: cover; 
 }
-
+*/
 .jumbotron {
   background: linear-gradient(
       rgba(29, 35, 42, 0.1), 
