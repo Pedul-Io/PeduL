@@ -122,20 +122,19 @@ html {
 
 .blurb {
   text-align: justify;
-  padding-top: 50px;
+  padding-top: 80px;
   display: table-cell;
 }
 
 .blurb_tag{
   text-align: center;
   padding-top: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   display: table-cell;
 }
 
 .circles {
-  background-color: #042037;  
-  padding-bottom: 40px;
+  background-color: #042037;
 }
 
 .user {
