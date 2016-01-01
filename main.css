@@ -8,9 +8,9 @@ html {
 
 .jumbotron {
   background: linear-gradient(
-      rgba(29, 35, 42, 0.1), 
-      rgba(29, 35, 42, 0.1)
-    );
+    rgba(29, 35, 42, 0.1), 
+    rgba(29, 35, 42, 0.1)
+  );
   height: 550px; 
   background-size: cover;
   position: relative;
@@ -49,23 +49,23 @@ html {
 }
 
 @media screen and (max-device-width: 800px) {
-    html {
-         background: url(group-pic.jpeg) #000 no-repeat center center fixed;
-    }
-    #bgvid {
-        display: none;
-    }
-    .jumbotron{
-      background: linear-gradient(
-        rgba(29, 35, 42, 0.1), 
-        rgba(29, 35, 42, 0.1)
-        ),
-      url(PedulVid30sec.gif) no-repeat;
-      height: 100%;
-      background-size: cover;
-      position: relative;
-      overflow: hidden;
-    }
+  html {
+   background: url(group-pic.jpeg) #000 no-repeat center center fixed;
+  }
+  #bgvid {
+    display: none;
+  }
+  .jumbotron{
+    background: linear-gradient(
+      rgba(29, 35, 42, 0.1), 
+      rgba(29, 35, 42, 0.1)
+      ),
+    url(PedulVid30sec.gif) no-repeat;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
 }
 
 .jumbotron .tagline {
@@ -107,55 +107,102 @@ html {
 }
 
 .biographies {
-  height: 800px;
   background-color: #042037;  
 }
 
+.biographies .blurb, .blurb_tag{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: table;
+  vertical-align: middle;
+}
+
+.blurb {
+  text-align: justify;
+  padding-top: 50px;
+  display: table-cell;
+}
+
+.blurb_tag{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  display: table-cell;
+}
+
 .circles {
-  height: 800px;
-  background-color: #042037;
-  
+  background-color: #042037;  
+  padding-bottom: 40px;
 }
 
 .user {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 200px;
 }
 
 .kayla {
-    background-image: url('kayla_jackson.jpg');
+  background-image: url('kayla_jackson.jpg');
+}
+
+.user.kayla{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
 }
 
 .pema {
-    background-image: url('pema_lama.jpg');
+  background-image: url('pema_lama.jpg');
+}
+
+.user.pema{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
 }
 
 .chisa {
-    background-image: url('chisa_egbelu.jpg');
+  background-image: url('chisa_egbelu.jpg');
+}
+
+.user.chisa{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
 }
 
 .murtala {
-    background-image: url('Murtala_Aliyu.jpg');
+  background-image: url('Murtala_Aliyu.jpg');
+}
+
+.user.murtala{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
 }
 
 .daniel {
-    background-image: url('daniel_chen.jpg');
+  background-image: url('daniel_chen.jpg');
 }
 
-.biographies .blurb {
-    margin-top: -480px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    color: #D5D5D5;
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    text-transform: uppercase;
+.user.daniel{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
 }
 
 .learn-more {
