@@ -213,11 +213,12 @@ html {
 
 .learn-more .image {
   background: url(finallogo.png) no-repeat;
-  background-size: 100px;
+  background-size: 100%;
+  background-position: center;
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 0 auto;
-  width: 7%;
+  width: 7em;
 }
 
 .learn-more h3 {
