@@ -195,34 +195,79 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
     display: inline-block;
     width: 200px;
     height: 200px;
-    border-radius: 10%;
+    border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    text-align: center;
+  	padding-top: 200px;
+  	margin: 10px;
 }
 
 .kayla {
     background-image: url(../img/kayla_jackson.jpg);
 }
 
+.user.kayla{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
+}
+
 .pema {
     background-image: url(../img/pema_lama.jpg);
+}
+
+.user.pema{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
 }
 
 .chisa {
     background-image: url(../img/chisa_egbelu.jpg);
 }
 
+.user.chisa{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
+}
+
 .murtala {
     background-image: url(../img/Murtala_Aliyu.jpg);
+}
+
+.user.murtala{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
 }
 
 .daniel {
     background-image: url(../img/daniel_chen.jpg);
 }
 
+.user.daniel{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
+}
+
 .gabby {
     background-image: url(../img/gabby_murphy.JPG);
+}
+
+.user.gabby{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
 }
 
 #slide4{
