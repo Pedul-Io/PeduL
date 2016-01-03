@@ -145,6 +145,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
 	color: #333333;
 	height: 900px;
+	background-size: cover;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 200px 0;
@@ -162,7 +163,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
     display: inline-block;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
