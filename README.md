@@ -1,2 +1,0 @@
-# pedul
-Website code
