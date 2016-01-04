@@ -110,7 +110,7 @@ html {
   background-color: #042037;  
 }
 
-.biographies .blurb, .blurb_tag{
+.biographies .blurb/*, .blurb_tag */{
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
   color: #D5D5D5;
@@ -122,16 +122,18 @@ html {
 
 .blurb {
   text-align: justify;
+  margin-bottom: auto;
   padding-top: 80px;
-  display: table-cell;
+  padding-bottom: 80px;
 }
 
-.blurb_tag{
+/*.blurb_tag{
   text-align: center;
   padding-top: 50px;
   padding-bottom: 80px;
   display: table-cell;
 }
+*/
 
 .circles {
   background-color: #042037;
