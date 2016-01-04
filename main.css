@@ -6,6 +6,10 @@ html {
   background-size: cover;
 }
 
+meta .mediapic {
+  background: url(https://drive.google.com/open?id=0B4vejMS66osDQVhrUXlRWmxJU28);
+}
+
 .jumbotron {
   background: linear-gradient(
     rgba(29, 35, 42, 0.1), 
