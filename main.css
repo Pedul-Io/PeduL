@@ -211,6 +211,17 @@ meta .mediapic {
   text-align: center;
 }
 
+.gabby {
+  background-image: url('gabby_murphy.JPG');
+}
+
+.user.gabby{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #D5D5D5;
+  text-align: center;
+}
+
 .learn-more {
   background-color: #009E66;
   border-bottom: 3px solid #;
