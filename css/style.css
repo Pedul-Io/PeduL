@@ -13,6 +13,10 @@ body{
 	width: 100%;
 }
 
+#slide1 video {
+	position: absolute;
+}
+
 h1 { 
     font-family:"Arvo";
 	font-weight:normal;
