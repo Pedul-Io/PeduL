@@ -174,7 +174,16 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide1 .pedullogo {
-	width: 280px;
+	width: 300px;
+  margin-left: -30px;
+}
+
+h4 .one {
+  margin-left: 480px;
+}
+
+#mc_embed_signup {
+  margin-left: 480px;
 }
 
 #slide2{
