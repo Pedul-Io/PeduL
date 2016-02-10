@@ -32,10 +32,10 @@ header img.logo {
 }*/
 
 section#about div.timeline-image h4{  
-	color: #ffcc00;
+	color: #fffff1;
 }
 section#about div.timeline-image h4:hover {
-	color: #fffff1;
+	color: #0C7F7C;
 }
 
 .animated {
