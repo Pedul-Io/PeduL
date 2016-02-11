@@ -39,10 +39,10 @@ section#about div.timeline-image h4:hover {
 }
 
 .animated {
-	-webkit-animation: fadeInDown 10s ease-out;
+	-webkit-animation: fadeInDown ease-out;
 	-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
 	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-duration: 10s;
+	-webkit-animation-duration: 2s;
 }
 
 @-webkit-keyframes fadeInDown {
