@@ -57,7 +57,7 @@ section#about div.timeline-image h4:hover {
             }
          }
 
-.one:hover {
+.bounceonce:hover {
     -webkit-animation-name: bounce;
   -moz-animation-name: bounce;
   -o-animation-name: bounce;
