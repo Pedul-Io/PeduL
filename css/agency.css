@@ -73,8 +73,28 @@ section#about div.timeline-image h4:hover {
   60% {transform: translateY(-10px);}
 }
 
+section#services {
+  background-color: #ffffbd;
+}
+
+section#portfolio {
+  background-color: #bec9db;
+}
+
+section#about {
+  background-color: #deffbd;
+}
+
+section#team {
+  background-color: #ffdebd;
+}
+
+aside.clients {
+  background-color: #ffffbd;
+}
+
 footer.mainfooter {
-  background-color: #f0f8ff;
+  background-color: #fffffb;
 }
 
 h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
