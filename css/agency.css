@@ -111,19 +111,19 @@ p.user {
 }
 
 .chisa {
-  background-image: url('/img/team/1.png');
+  background-image: url(../img/team/1.png);
 }
 
 .murtala {
-  background-image: url('/img/team/2.png');
+  background-image: url(../img/team/2.png);
 }
 
 .kayla {
-  background-image: url('/img/team/3.png');
+  background-image: url(../img/team/3.png);
 }
 
 .pema {
-  background-image: url('/img/team/4.png');
+  background-image: url(../img/team/4.png);
 }
 
 h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
