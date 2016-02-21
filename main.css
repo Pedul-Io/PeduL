@@ -22,7 +22,7 @@ meta .mediapic {
 }
 
 .jumbotron .image{
-  background: url(finallogo.png) no-repeat;
+  background: url(./img/finallogo.png) no-repeat;
   background-size: 300px;
   padding-top: 50px;
   margin-top: 70px;
