@@ -73,28 +73,32 @@ section#about div.timeline-image h4:hover {
   60% {transform: translateY(-10px);}
 }
 
-section#services {
-  background-color: #ffffbd;
+section#numbers {
+  background-color: #ffffff;
 }
 
-section#portfolio {
-  background-color: #bec9db;
+section#services {
+  background-color: #F3EFE0;
 }
 
 section#about {
-  background-color: #deffbd;
+  background-color: #ffffff;
+}
+
+section#portfolio {
+  background-color: #F3EFE0;
 }
 
 section#team {
-  background-color: #ffdebd;
+  background-color: #ffffff;
 }
 
 aside.clients {
-  background-color: #ffffbd;
+  background-color: #F3EFE0;
 }
 
 footer.mainfooter {
-  background-color: #fffffb;
+  background-color: #ffffff;
 }
 
 p.user {
