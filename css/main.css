@@ -22,21 +22,3 @@
         display: none;
     }
 }
-
-.fullscreen-bg img {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-.fullscreen-bg img {
-    vertical-align: middle;
-}
-/*\*//*/
-.wraptocenter {
-    display: block;
-}
-.wraptocenter p {
-    display: inline-block;
-    height: 100%;
-    width: 1px;
-}
