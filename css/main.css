@@ -7,8 +7,8 @@
 
 .fullscreen-bg__video {
   background: linear-gradient(
-      rgba(84, 124, 150, 0.5), 
-      rgba(84, 124, 150, 0.5)
+      rgba(83, 147, 107, 0.5), 
+      rgba(83, 147, 107, 0.5)
     ),
   url('http://www.pedul.io/LibraryIndoor.mp4') no-repeat center center fixed;
 }
