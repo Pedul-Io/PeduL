@@ -5,24 +5,6 @@
     height: 100%;
 }
 
-.fullscreen-bg__video {
-  background: linear-gradient(
-      rgba(83, 147, 107, 0.5), 
-      rgba(83, 147, 107, 0.5)
-    ),
-  url('http://www.pedul.io/LibraryIndoor.mp4') no-repeat center center fixed;
-}
-
-@media (max-width: 767px) {
-    .fullscreen-bg {
-        background: url('http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
-    }
-
-    .fullscreen-bg__video {
-        display: none;
-    }
-}
-
 /* -webkit-animation: pulsate 10s ease-out;
     -webkit-animation-iteration-count: infinite; 
     opacity: 0.5 */
