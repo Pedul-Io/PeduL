@@ -23,13 +23,29 @@
   top: 40%;
   left: 40%;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
    -webkit-animation: pulsate 1s;
     -webkit-animation-iteration-count: infinite; 
 }
+
+#circle {
+  width: 350px;
+  height: 350px;
+  background: white;
+  position: fixed;
+  top: 31%;
+  left: 38%;
+  opacity: 0.3;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 350px;
+}
+
 
 @-webkit-keyframes pulsate {
     0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
     50% {opacity: 1.0;}
     100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
 }
+
+
