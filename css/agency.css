@@ -1,3 +1,8 @@
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+
 body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif}.text-muted{color:#777}.text-primary{color:#fed136}
 
 p{font-size:14px;line-height:1.75}
