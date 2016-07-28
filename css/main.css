@@ -23,6 +23,20 @@ video {
     opacity: 0.105;
 }
 
+@media screen and (max-device-width: 800px) {
+  .fullscreen-bg{
+    background: linear-gradient(
+      rgba(29, 35, 42, 0.1),
+      rgba(29, 35, 42, 0.1)
+      ),
+    url(http://www.pedul.io/vid/LibraryIndoor.gif) no-repeat;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
 .pulse {
   height: 200px;
   width: 300px;
@@ -53,5 +67,4 @@ video {
     50% {opacity: 1.0;}
     100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
 }
-
 
