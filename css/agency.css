@@ -215,6 +215,14 @@ input[type=checkbox], input[type=radio] {
   margin: 0 auto;
 }
 
+#mc_embed_signup .mc-field-group {
+  clear: left;
+  position: relative;
+  width: 100%;
+  padding-bottom: 3%;
+  min-height: 50px;
+}
+
 #mc_embed_signup form {
   display: block;
   position: relative;
@@ -263,7 +271,7 @@ label {
 }
 
 #asterisk {
-  margin-left: 90%;
+  margin-left: 95%;
   color: red;
   position: absolute;
 }
@@ -326,6 +334,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700
+}
+
+section h2.section-heading {
+  text-transform: uppercase;
 }
 
 .img-centered {
@@ -901,7 +913,7 @@ aside.clients img {
 
 section#contact {
 	background-color: #222;
-	background-image: url(../img/contact/map-image.png);
+	background-image: url(../img/team/pedulCover.jpg);
 	background-position: center;
 	background-repeat: no-repeat
 }
