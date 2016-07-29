@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;  
+}
+
 img {
 	max-width: 100%;
 	height: auto !important;
@@ -193,12 +197,59 @@ p.user {
 }
 
 /*Styles for text for I am a Potential... */
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+  border: 2px solid #e85c41;
+}
+
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#mc_embed_signup form {
+  display: block;
+  position: relative;
+  text-align: left;
+  padding: 10px 0 10px 3%;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+  border: 2px solid #e85c41;
+}
+
+#mc_embed_signup .mc-field-group.input-group ul, li {
+  display: block;
+  padding: 3px 0;
+  margin: 0;
+}
+
+#mc_embed_signup .mc-field-group input {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  text-indent: 2%;
+}
+
 #mc_embed_signup .mc-field-group label {
   clear: left; 
-  font: 14px Helvetica,Arial,sans-serif;  
-  width: 300px; 
-  margin-right: 5%;
-  padding-left: 10px;
+  position: relative;
+  width: 96%;
+  margin-bottom: 3%;
+  min-height: 50px;
+}
+
+#mc_embed_signup .mc-field-group.input-group label {
+  display: inline;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
 }
 /*Centers Subscribe button for mailchimp form */
 #mc-embedded-subscribe {
