@@ -74,12 +74,12 @@ header .intro-heading h2 {
 	margin-top: 0px;
 }
 
-.animated {
+/*.animated {
 	-webkit-animation: fadeInDown ease-out;
-	-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+	-webkit-animation-delay: 2s; /* Chrome, Safari, Opera
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-duration: 2s;
-}
+}*/
 
 @
 -webkit-keyframes fadeInDown { 0% {
@@ -198,6 +198,12 @@ p.user {
 
 /*Styles for text for I am a Potential... */
 
+input[type=checkbox], input[type=radio] {
+  margin: 4px 100px;
+  margin-top: 8px\9;
+  line-height: normal;
+}
+
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
   border: 2px solid #e85c41;
 }
@@ -213,7 +219,7 @@ p.user {
   display: block;
   position: relative;
   text-align: left;
-  padding: 10px 0 10px 3%;
+  padding: 10px 3% 10px 3%;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
@@ -257,7 +263,7 @@ label {
 }
 
 #asterisk {
-  margin-left: 50%;
+  margin-left: 90%;
   color: red;
   position: absolute;
 }
