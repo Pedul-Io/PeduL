@@ -215,6 +215,14 @@ input[type=checkbox], input[type=radio] {
   margin-left: 115px;
 }
 
+#institution {
+  margin-top: 15px;
+}
+
+#corporate {
+  margin-top: 10px;
+}
+
 input[type=checkbox] {
   margin-right: 200px;
   height: 0em;
