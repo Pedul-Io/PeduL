@@ -212,16 +212,11 @@ input[type=checkbox], input[type=radio] {
   border: 2px solid #e85c41;
 }
 
-#pedul_points {
-  float: right;
-  margin-right: 200px;
-  margin-top: 50px;
-}
-
-#mantoman {
-  margin-left: 200px;
+#institution, #money, #corporate, #points {
   float: left;
-  margin-top: 50px;
+  display: block;
+  padding: 30px;
+  margin-left: 115px;
 }
 
 input[type=checkbox] {
