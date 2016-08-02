@@ -111,13 +111,13 @@
 
 	<!-- Header -->
 	<header>
-		<div class="container" id="one">
+  <span>
+    <h2 id="tagline">Higher Education Crowdfunding</h2>
+  <span>
+	<!--	<div class="container" id="one">
 			<div class="intro-text">
-       <!-- <div class="intro-tagline">
-          <span>
-             <h2 class="tagline">Where Opportunities Blossom</h2>
-           <span>
-       </div> -->
+        <div class="tagline">
+        </div> -->
 				<!-- <img src="./img/logos/finallogo.png"
 					style="width: 300px; height: 200px; margin: 0 auto; margin-top: -50px;"
 					class="logo animated pulse"> -->
@@ -147,16 +147,13 @@
 						  <p id=asterisk>*</p>
 						  	<input type="text" value="" name="MMERGE2" class="required" id="mce-MMERGE2" placeholder="Zip code" style="color: #000000;">
 						</div>
-						<div class="mc-field-group input-group">
-							<center>
-								<strong style="color:black;">I am a</strong>
-							    <ul>
-							    	<li><input type="checkbox" value="1" name="group[9993][1]" id="mce-group[9993]-9993-0"><label for="mce-group[9993]-9993-0" style="color: #000000;margin-right:1.5%;">Potential student</label></li>
-									<li><input type="checkbox" value="2" name="group[9993][2]" id="mce-group[9993]-9993-1"><label for="mce-group[9993]-9993-1" style="color: #000000;margin-right:5%;">Potential donor</label></li>
-									<li><input type="checkbox" value="4" name="group[9993][4]" id="mce-group[9993]-9993-2"><label for="mce-group[9993]-9993-2" style="color: #000000;margin-right:.5%;">Potential investor</label></li>
-								</ul>
-							</center>
-						</div>
+            <div class="mc-field-group input-group"><center>
+              <strong style="color: #000000;">I am a </strong>
+                <ul><li><input type="checkbox" value="1" name="group[9993][1]" id="mce-group[9993]-9993-0"><label for="mce-group[9993]-9993-0" style="color: #000000;margin-right: 1.5%;">Potential student</label></li>
+                  <li><input type="checkbox" value="2" name="group[9993][2]" id="mce-group[9993]-9993-1"><label for="mce-group[9993]-9993-1" style="color: #000000;margin-right: 5%;">Potential donor</label></li>
+                  <li><input type="checkbox" value="4" name="group[9993][4]" id="mce-group[9993]-9993-2"><label for="mce-group[9993]-9993-2" style="color: #000000;margin-right: .5%;">Potential investor</label></li>
+                </ul></center>
+            </div>
 						<div id="mce-responses" class="clear">
 							<div class="response" id="mce-error-response" style="display:none"></div>
 							<div class="response" id="mce-success-response" style="display:none"></div>
@@ -192,14 +189,9 @@
 					<h2 class="section-heading">By The Numbers</h2>
 				</div>
 			</div>
-			<br> <br> <img
-				src="img/services/Outstanding SLD.png"
-				style="height: 170px; width: 1100px; margin: 0 auto;">
+			<br> <br>
 			<div class="row" style="max-width: 100%; height: auto !important;">
 				<div class="col-lg-12 text-center">
-					<p class="text-muted" style="font-size: 20px;">
-						According to <a href="http://www.marketwatch.com/story/every-second-americans-get-buried-under-another-3055-in-student-loan-debt-2015-06-10">MarketWatch</a> student Loan debt is currently over $1.3 Trillion and it is growing $2,726 every second
-					</p>
 					<div class="ftb-widget" data-width="670" data-height="710" data-widget-id="fR0ZMXf8y3j"  data-href="https://www.graphiq.com/wlp/fR0ZMXf8y3j" ><a href="https://www.graphiq.com/wlp/fR0ZMXf8y3j" target="_blank"  style="font:14px/16px arial;color:#3d3d3d;">      | StartClass</a></div><script async src="https://s.graphiq.com/rx/widgets.js"></script>
 				</div>
 			</div>
@@ -262,18 +254,27 @@
 						directly from campaigns to the university in the form of a
 						third-party scholarship.</p>
 				</div>
-				<div class="col-md-4">
-					<img src="img/services/mantoman.png"
-						class="img-responsive img-centered bounceonce" alt="">
-					<h4 class="service-heading">Appreciation Pages</h4>
-					<p class="text-muted">PeduL will have organization and
-						university pages to streamline the giving process for appreciative
-						alumnus and participants. For example, say University of Michigan
-						has a page, individuals can donate to this page and after a
-						certain amount of time, those funds are then allocated out to
-						campaigns who have shown a proof of attendance to that school.</p>
-				</div>
-				<div class="col-md-4">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img src="img/services/corporateicon.png"
+              class="img-responsive img-centered bounceonce" alt="">
+            <h4 class="service-heading">Coporation Tier Sponsorships</h4>
+            <p class="text-muted">Donors will know exactly where their
+              money is going, and how it's being used. We facilitate money
+              directly from campaigns to the university in the form of a
+              third-party scholarship.</p>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-4">
+              <img src="img/services/institutionicon.png"
+                class="img-responsive img-centered bounceonce" alt="">
+              <h4 class="service-heading">Instituitions</h4>
+              <p class="text-muted">Donors will know exactly where their
+                money is going, and how it's being used. We facilitate money
+                directly from campaigns to the university in the form of a
+                third-party scholarship.</p>
+            </div>
+				<div class="col-md-4" id="pedul_points">
 					<img src="img/services/points.png"
 						class="img-responsive img-centered bounceonce" alt="">
 					<h4 class="service-heading">PeduL Points</h4>
@@ -284,6 +285,17 @@
 						prizes that will prepare them for success in<i> and </i>out of the
 						classroom.
 					</p>
+				</div>
+				<div class="col-md-4" id="mantoman">
+					<img src="img/services/mantoman.png"
+						class="img-responsive img-centered bounceonce" alt="">
+					<h4 class="service-heading">Appreciation Pages</h4>
+					<p class="text-muted">PeduL will have organization and
+						university pages to streamline the giving process for appreciative
+						alumnus and participants. For example, say University of Michigan
+						has a page, individuals can donate to this page and after a
+						certain amount of time, those funds are then allocated out to
+						campaigns who have shown a proof of attendance to that school.</p>
 				</div>
 			</div>
 		</div>
@@ -364,7 +376,7 @@
 							</div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h4>August 2016</h4>
+									<h4>October 2016</h4>
 									<h4 class="subheading">Constant Beta</h4>
 								</div>
 								<div class="timeline-body">
@@ -458,8 +470,7 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading">Founding Members</h2>
-					<h3 class="section-subheading text-muted">Bringing you
-						Tuition-Free learning from yours truly</h3>
+					<h3 class="section-subheading text-muted">The team that made PeduL possible</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -515,7 +526,7 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<h2 class="section-heading">Supporting Members</h2>
-						<h3 class="section-subheading text-muted">People at IDT helping build our app</h3>
+            <h3 class="section-subheading text-muted">Every great team needs a supporting cast</h3>
 					</div>
 				</div>	
 				<div class="row">

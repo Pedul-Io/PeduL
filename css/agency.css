@@ -199,13 +199,30 @@ p.user {
 /*Styles for text for I am a Potential... */
 
 input[type=checkbox], input[type=radio] {
-  margin: 4px 100px;
+  margin: 4px 60px;
   margin-top: 8px\9;
   line-height: normal;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
   border: 2px solid #e85c41;
+}
+
+#pedul_points {
+  float: right;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+#mantoman {
+  margin-left: 200px;
+  float: left;
+  margin-top: 50px;
+}
+
+input[type=checkbox] {
+  margin-right: 200px;
+  height: 0em;
 }
 
 #mc_embed_signup {
@@ -228,6 +245,7 @@ input[type=checkbox], input[type=radio] {
   position: relative;
   text-align: left;
   padding: 10px 3% 10px 3%;
+  margin-top: 100px;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
@@ -319,11 +337,15 @@ div.intro-tagline {
 
 }
 
-h2.tagline {
-/*	text-transform: lowercase;*/
+div.tagline {
+  margin-bottom: 100px;
+}
+
+#tagline {
+	text-transform: uppercase;
   font-size: 45px;
-/*  color: #e3c796;*/
-/*  background-color: rgba(0, 0, 0, 0.3);*/
+  color: #e3c796;
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 2px;
   display: inline;
   font-family: 'Source Sans Pro', sans-serif;
