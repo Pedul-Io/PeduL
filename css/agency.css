@@ -173,7 +173,7 @@ p.user {
 }
 
 .chisa {
-	background-image: url(../img/team/1.png);
+	background-image: url(../img/team/1.jpg);
 }
 
 .murtala {
@@ -189,7 +189,7 @@ p.user {
 }
 
 .kyle {
-	background-image: url(../img/team/6.jpg);
+	background-image: url(../img/team/6.JPG);
 }
 
 .josh {
@@ -768,7 +768,7 @@ aside.clients img {
 
 section#contact {
 	background-color: #222;
-	background-image: url(../img/contact/map-image.png);
+	background-image: url(../img/team/pedulCover.jpg);
 	background-position: center;
 	background-repeat: no-repeat
 }
