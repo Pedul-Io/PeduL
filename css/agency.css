@@ -355,12 +355,11 @@ div.tagline {
 h2#tagline {
 	text-transform: uppercase;
   font-size: 45px;
-  color: #e3c796;
-  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
   padding: 2px;
   display: inline;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -550,7 +549,12 @@ bar-default .navbar-toggle {
 }
 
 header {
-	background-image: url(../img/header/bike_in_hallway.jpg);
+  background: linear-gradient(
+            90deg, 
+            rgba(0, 0, 0, 0.2),
+            rgba(255, 255, 255, 0.1)
+                  ), url(../img/header/bike_in_hallway.jpg);
+/*	background-image: url(../img/header/bike_in_hallway.jpg);*/
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -564,13 +568,13 @@ header {
 
 
 .intro-heading {
-	 font-family: 'Source Sans Pro', sans-serif;
-	 text-align: center;
-	 text-transform: lowercase;
-	 font-weight: bold;
-	 font-size: 54px;
-	 color: #222;
-   margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 54px;
+  color: #222;
+  margin-right: 20px;
 }
 
 
