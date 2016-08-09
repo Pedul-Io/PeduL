@@ -11,7 +11,7 @@ body {
 	overflow-x: hidden;
 	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial,
 		sans-serif;
-    margin: 0;
+    padding: 0;
 }
 
 .text-muted {
@@ -314,7 +314,7 @@ label {
 }
 
 .chisa {
-	background-image: url(../img/team/1.JPG);
+	background-image: url(../img/team/1.jpg);
 }
 
 .murtala {
@@ -330,7 +330,7 @@ label {
 }
 
 .kyle {
-	background-image: url(../img/team/5.JPG);
+	background-image: url(../img/team/5.jpg);
 }
 
 .josh {
@@ -338,7 +338,7 @@ label {
 }
 
 .yifei {
-	background-image: url(../img/team/7.JPG);
+	background-image: url(../img/team/7.jpg);
 }
 
 .loading {
