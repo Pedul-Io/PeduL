@@ -11,7 +11,8 @@ body {
 	overflow-x: hidden;
 	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial,
 		sans-serif;
-    padding: 0;
+    margin-right: 0;
+    padding-right: 0;
 }
 
 .text-muted {
@@ -961,13 +962,13 @@ aside.clients img {
 
 section#contact {
 	background-color: #222;
-	background-image: url(../img/team/pedulCover.jpg);
+	background-image: url(../img/header/brick_path.jpg);
 	background-position: center;
 	background-repeat: no-repeat
 }
 
 section#contact .section-heading {
-	color: #fff
+	color: #222;
 }
 
 section#contact .form-group {
