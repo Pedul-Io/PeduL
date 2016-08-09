@@ -79,6 +79,18 @@ img.edupng {
     width: 150px;
   }
 
+  #institution, #money, #corporate, #points {
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: 0px;
+  }
+
+  #we_offer {
+    text-align: center;
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+
   h2#tagline {
     font-size: 35px;
   }

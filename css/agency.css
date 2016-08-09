@@ -14,7 +14,13 @@ body {
 }
 
 .text-muted {
-	color: #777
+	color: #777;
+  text-align: justify;
+}
+
+#we_offer {
+  color: #777;
+  text-align: justify;
 }
 
 .text-primary {
@@ -231,11 +237,6 @@ input[type=checkbox], input[type=radio] {
   margin-top: 10px;
 }
 
-input[type=checkbox] {
-  margin-right: 200px;
-  height: 0em;
-}
-
 #mc_embed_signup {
   clear: left;
   font: 14px Helvetica,Arial,sans-serif;
@@ -284,6 +285,12 @@ input[type=checkbox] {
   min-height: 50px;
 }
 
+#mc_embed_signup .mc-field-group.input-group input {
+  display: inline;
+  width: auto;
+  border: none;
+}
+
 #mc_embed_signup .mc-field-group.input-group label {
   display: inline;
 }
@@ -310,31 +317,27 @@ label {
 }
 
 .murtala {
-	background-image: url(../img/team/2.png);
+	background-image: url(../img/team/3.jpg);
 }
 
 .kayla {
-	background-image: url(../img/team/3.png);
-}
-
-.pema {
-	background-image: url(../img/team/4.png);
+	background-image: url(../img/team/2.jpg);
 }
 
 .johnny {
-	background-image: url(../img/team/5.jpg);
+	background-image: url(../img/team/4.jpg);
 }
 
 .kyle {
-	background-image: url(../img/team/6.JPG);
+	background-image: url(../img/team/5.JPG);
 }
 
 .josh {
-	background-image: url(../img/team/7.jpg);
+	background-image: url(../img/team/6.jpg);
 }
 
 .yifei {
-	background-image: url(../img/team/8.jpg);
+	background-image: url(../img/team/7.jpg);
 }
 
 .loading {
