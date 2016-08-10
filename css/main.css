@@ -3,9 +3,9 @@ html {
 }
 
 #fade_pedul_logo {
-  width: 100px;
+  max-width: 100px;
   height: 90px;
-  margin-left: 90px;
+  margin-left: -20px;
 }
 
 .hidden * {
