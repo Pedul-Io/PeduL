@@ -3,9 +3,9 @@ html {
 }
 
 #fade_pedul_logo {
-  width: 100px;
+  max-width: 100px;
   height: 90px;
-  margin-left: 90px;
+  margin-left: -20px;
 }
 
 .hidden * {
@@ -72,6 +72,12 @@ img.edupng {
 
   div.pandl {
     margin-bottom: 60px;
+  }
+
+  .address, .phone_number { 
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: auto;
   }
 
   .edupng, .pandl {
