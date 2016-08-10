@@ -74,6 +74,12 @@ img.edupng {
     margin-bottom: 60px;
   }
 
+  .address, .phone_number { 
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: auto;
+  }
+
   .edupng, .pandl {
     height: 200px;
     width: 150px;
