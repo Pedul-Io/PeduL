@@ -12,6 +12,10 @@ body {
 		sans-serif;
 }
 
+html, body {
+  overflow-x:hidden 
+} 
+
 .text-muted {
 	color: #777;
   text-align: justify;
