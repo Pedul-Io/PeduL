@@ -33,6 +33,7 @@ html {
   margin: 0;
 }
 
+
 img.pandl{
   width: 680px;
   margin-left: 55px;
@@ -43,6 +44,95 @@ img.pandl{
 img.edupng {
   margin-top: 50px;
   margin-left: 160px;
+}
+
+@media screen and (max-width: 700px) {  
+
+  header {
+    background-image: url(../img/header/brick_path_crop_two.jpeg);
+  }
+
+  #pedul_logo_container {
+    height: 600px;
+    margin-left: 40px;
+    margin-right: auto;
+    width: 300px;
+  }
+
+  img.edupng {
+    margin-top: 160px;
+    margin-left: 71px;
+  }
+  
+  img.pandl {
+    width: 220px;
+    margin-top: -130px;
+    margin-left: 38px
+  }
+
+  div.pandl {
+    margin-bottom: 60px;
+  }
+
+  .edupng, .pandl {
+    height: 200px;
+    width: 150px;
+  }
+
+  #institution, #money, #corporate, #points {
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: 0px;
+  }
+
+  #we_offer {
+    text-align: center;
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+
+  h2#tagline {
+    font-size: 35px;
+  }
+
+  .container>.navbar-header {
+    margin-left: -85px;
+    margin-top: 15px;
+  }
+
+  h2#tagline.intro-heading {
+    margin-right: 0;
+  }
+
+  #mc_embed_signup form {
+    margin-top: 25px;
+  }
+
+  header {
+    padding-top: 90px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .navbar-fixed-top {
+    position: absolute;
+  }
+
+  header .intro-text .intro-heading {
+    position: relative;
+    line-height: 0px;
+    margin-bottom: 405px;
+    margin-top: 500px;
+  }
+
+  .intro-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-size: 30px;
+    color: #222;
+    margin-bottom: 70px;
+  }
 }
 
 video {
