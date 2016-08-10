@@ -8,13 +8,22 @@ img {
 }
 
 body {
-	overflow-x: hidden;
 	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial,
-		sans-serif
+		sans-serif;
 }
 
+html, body {
+  overflow-x:hidden 
+} 
+
 .text-muted {
-	color: #777
+	color: #777;
+  text-align: justify;
+}
+
+#we_offer {
+  color: #777;
+  text-align: justify;
 }
 
 .text-primary {
@@ -198,6 +207,14 @@ p.user {
 
 /*Styles for text for I am a Potential... */
 
+h2#supporting_members {
+  margin-top: 75px;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+  border: 2px solid #e85c41;
+}
+
 input[type=checkbox], input[type=radio] {
   margin: 4px 60px;
   margin-top: 8px\9;
@@ -224,11 +241,6 @@ input[type=checkbox], input[type=radio] {
 #corporate {
   margin-top: 10px;
 >>>>>>> d3d03513ea39f8f6642214a1d3408cc432b0fba9
-}
-
-input[type=checkbox] {
-  margin-right: 200px;
-  height: 0em;
 }
 
 #mc_embed_signup {
@@ -279,6 +291,12 @@ input[type=checkbox] {
   min-height: 50px;
 }
 
+#mc_embed_signup .mc-field-group.input-group input {
+  display: inline;
+  width: auto;
+  border: none;
+}
+
 #mc_embed_signup .mc-field-group.input-group label {
   display: inline;
 }
@@ -305,31 +323,27 @@ label {
 }
 
 .murtala {
-	background-image: url(../img/team/2.png);
+	background-image: url(../img/team/3.JPG);
 }
 
 .kayla {
-	background-image: url(../img/team/3.png);
-}
-
-.pema {
-	background-image: url(../img/team/4.png);
+	background-image: url(../img/team/2.JPG);
 }
 
 .johnny {
-	background-image: url(../img/team/5.jpg);
+	background-image: url(../img/team/4.JPG);
 }
 
 .kyle {
-	background-image: url(../img/team/6.JPG);
+	background-image: url(../img/team/5.jpg);
 }
 
 .josh {
-	background-image: url(../img/team/7.jpg);
+	background-image: url(../img/team/6.JPG);
 }
 
 .yifei {
-	background-image: url(../img/team/8.jpg);
+	background-image: url(../img/team/7.jpg);
 }
 
 .loading {
@@ -347,15 +361,14 @@ div.tagline {
   margin-bottom: 100px;
 }
 
-#tagline {
+h2#tagline {
 	text-transform: uppercase;
   font-size: 45px;
-  color: #e3c796;
-  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
   padding: 2px;
   display: inline;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -545,7 +558,12 @@ bar-default .navbar-toggle {
 }
 
 header {
-	background-image: url(../img/header/bike_in_hallway.jpg);
+  background: linear-gradient(
+            90deg, 
+            rgba(0, 0, 0, 0.2),
+            rgba(255, 255, 255, 0.1)
+                  ), url(../img/header/bike_in_hallway.jpg);
+/*	background-image: url(../img/header/bike_in_hallway.jpg);*/
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -559,13 +577,13 @@ header {
 
 
 .intro-heading {
-	 font-family: 'Source Sans Pro', sans-serif;
-	 text-align: center;
-	 text-transform: lowercase;
-	 font-weight: bold;
-	 font-size: 54px;
-	 color: #222;
-   margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 50px;
+  color: #222;
+  margin-right: 20px;
 }
 
 
@@ -591,15 +609,22 @@ header .intro-text .intro-heading {
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 50px;
-	margin-bottom: 25px
+	margin-bottom: 25px;
 	margin-top: 500px;
 }
 
 @media ( min-width :768px) {
 	header {
-		padding-top: 300px;
-		padding-bottom: 200px
+    padding-top: 200px;
+    padding-bottom: 50px;
 	}
+
+input[type=checkbox], input[type=radio] {
+  margin: 4px 60px;
+  margin-top: 8px\9;
+  line-height: normal;
+}
+
 	header .intro-lead-in {
 		font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial,
 			sans-serif;
@@ -941,13 +966,13 @@ aside.clients img {
 
 section#contact {
 	background-color: #222;
-	background-image: url(../img/team/pedulCover.jpg);
+	background-image: url(../img/header/brick_path.jpg);
 	background-position: center;
 	background-repeat: no-repeat
 }
 
 section#contact .section-heading {
-	color: #fff
+	color: #222;
 }
 
 section#contact .form-group {
