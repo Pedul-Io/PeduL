@@ -5,7 +5,8 @@ html {
 #fade_pedul_logo {
   max-width: 100px;
   height: 90px;
-  margin-left: -20px;
+  margin-left: -30px;
+  margin-top: -3px;
 }
 
 .hidden * {
@@ -46,6 +47,10 @@ img.edupng {
   margin-left: 160px;
 }
 
+  .address, .phone_number { 
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
 @media screen and (max-width: 700px) {  
 
   header {
@@ -82,6 +87,7 @@ img.edupng {
     margin-top: 10px;
     margin-right: 50px;
     margin-left: auto;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
   .edupng, .pandl {
