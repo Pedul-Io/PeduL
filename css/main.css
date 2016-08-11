@@ -54,7 +54,11 @@ img.edupng {
 @media screen and (max-width: 600px) {  
 
   header {
-    background-image: url(../img/header/brick_path_crop_two.jpeg);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.8),
+      rgba(0, 0, 0, 0.3)
+      ), url(../img/header/brick_path_crop_two.jpeg);
   }
 
   #pedul_logo_container {
@@ -62,6 +66,13 @@ img.edupng {
     margin-left: 42px;
     margin-right: auto;
     width: 300px;
+  }
+
+  #tagline.intro-heading {
+    color: black;
+    border-radius: 2px;
+/*    background-color: rgba(255, 255, 255, 0.4);*/
+    padding: 3px;
   }
 
   #fade_pedul_logo {
