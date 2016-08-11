@@ -13,7 +13,7 @@ html {
   display: none;
 }
 
-/*opening fade in and outi logo*/
+/*opening fade in and out logo*/
 #pedul_logo_container {
   height: 1000px;
   margin-left: auto;
@@ -64,19 +64,19 @@ img.edupng {
     width: 300px;
   }
 
-  img.edupng {
-    margin-top: 160px;
-    margin-left: 71px;
-  }
-  
   #fade_pedul_logo {
     margin-left: 90px;
   }
 
+  img.edupng {
+    margin-top: 160px;
+    margin-left: 72px;
+  }
+  
   img.pandl {
     width: 220px;
     margin-top: -130px;
-    margin-left: 38px
+    margin-left: 40px
   }
 
   div.pandl {
