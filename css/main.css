@@ -51,15 +51,15 @@ img.edupng {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
-@media screen and (max-width: 700px) {  
+@media screen and (max-width: 600px) {  
 
   header {
     background-image: url(../img/header/brick_path_crop_two.jpeg);
   }
 
   #pedul_logo_container {
-    height: 600px;
-    margin-left: 40px;
+    height: 700px;
+    margin-left: 42px;
     margin-right: auto;
     width: 300px;
   }
@@ -70,13 +70,13 @@ img.edupng {
 
   img.edupng {
     margin-top: 160px;
-    margin-left: 72px;
+    margin-left: 86px;
   }
   
   img.pandl {
     width: 220px;
     margin-top: -130px;
-    margin-left: 40px
+    margin-left: 53px
   }
 
   div.pandl {
@@ -117,7 +117,7 @@ img.edupng {
   }
 
   h2#tagline.intro-heading {
-    margin-right: 0;
+    margin: 0;
   }
 
   #mc_embed_signup form {
@@ -148,8 +148,30 @@ img.edupng {
     font-size: 30px;
     color: #222;
     margin-bottom: 70px;
+    margin-left: 35px;
   }
 }
+
+@media screen and (max-width: 400px) {  
+  
+  img.edupng {
+    margin-top: 160px;
+    margin-left: 72px;
+  }
+  
+  img.pandl {
+    width: 220px;
+    margin-top: -130px;
+    margin-left: 40px
+  }
+
+  .intro-heading {
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-left: 0;
+  }
+}
+
 
 video {
    position: fixed;
