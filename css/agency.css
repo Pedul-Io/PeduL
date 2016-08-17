@@ -978,8 +978,8 @@ section#contact .section-heading {
   display: inline;
 }
 
-.col-lg-12 {
-  margin-bottom: 100px;
+#contact_text {
+  margin-bottom: 80px;  
 }
 
 section#contact .form-group {
